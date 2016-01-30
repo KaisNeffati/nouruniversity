@@ -1,0 +1,68 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+body{
+font-family: 'Droid Arabic Kufi', sans-serif;
+}
+
+/****
+/* Navigation
+*****/
+#navbar{
+  background-color: transparent;
+  margin-bottom: 0;
+}
+
+
+/*--banner-starts--*/
+.banner{
+  position: relative;
+	background:url(../img/bnr4.jpg) no-repeat;
+	min-height:600px;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+  -webkit-animation: fadeIn 2s ease-out both;
+  animation: fadeIn 2s ease-out both;
+  text-align: center;
+  color: #fff;
+}
+.banner-overlay{
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: -webkit-linear-gradient(top, #AA3939, #616db3);
+  background: linear-gradient(to bottom, #AA3939,#616db3);
+  content: "";
+  display: block;
+  z-index: 3;
+  opacity: 0.6;
+}
+.banner-text {
+    padding-top: 200px;
+}
+
+
+/*--banner-Ends--*/
+/* stat-section starts*/
+.stat-section{
+  padding: 50px 0 50px 0;
+}
+/* stat-section ends */
+
+/*how-section starts */
+.how-section{
+  background: #f6f8f8;
+}
+.how-section h1{
+  margin: 50px 0 20px 0;
+}
+.how-section p{
+  margin: 0px 0 50px 0;
+}
+/*how-section ends */
+
+
+

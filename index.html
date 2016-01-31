@@ -81,8 +81,26 @@
           <h1>تعريف مبسط</h1>
           <p>
             جامعة شرعية تعليمية تُعنى بتكوين علماء وطلبة علم مؤهلين في العلوم الشرعية واللغوية.</p>
-            <button type="button" class="btn btn-info">المزيد</button>
-        </div>
+          <p id="p1" hidden>« النهوض بالأمة الإسلامية من خلال نشر العلوم والثقافة الإسلامية وعلوم اللغة العربية »<br>
+
+            « تخريج جيل مؤمن صالح مخلص لإسلامه وأمته »<br>
+
+            « الجمع بين الإيمان والعلم والعمل والأخلاق ، وحمل رسالة الإسلام بما فيها من هداية ورحمة وسماحة وأخوة وحق وعدالة وفضيلة »<br>
+
+            « منهج الدعوة المتبع هو الدعوة إلى الله بالحكمة والموعظة الحسنة »<br>
+
+            « تطوير دراسات العلوم الإسلامية تطويراً يحافظ على الثوابت ، وينطلق في المتغيرات ، يبني ولا يهدم ، ويجدد ولا يبدد »<br>
+
+            « معالجة أزمة الوعي الديني ، والخواء الثقافي ، والهزال الفكري لدى الأجيال »<br>
+
+            « نشر العلم المؤصل، والثقافة السديدة ، والتربية الرشيدة »<br>
+
+
+            جامعة النور لتكوين علماء المستقبل - تونس - رادس
+
+            صورة لعلم التواصلتابعونا على الشبكات الاجتماعية</p>
+            <button type="button" class="btn btn-info" id="toggle" >المزيد</button>
+          </div>
       </div>
       <div class="how-section text-center">
         <div class="container">
@@ -132,6 +150,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#toggle").click(function(){
+        $("#p1").slideToggle("slow");
+    });
+});
+</script>
 
 
   </body>
